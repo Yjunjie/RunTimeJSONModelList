@@ -24,8 +24,6 @@
 		E83F0DCE1EE6977A004CFFA2 /* BrandType.m in Sources */ = {isa = PBXBuildFile; fileRef = E83F0DCD1EE6977A004CFFA2 /* BrandType.m */; };
 		E83F0DD31EE69EAF004CFFA2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E83F0DD21EE69EAF004CFFA2 /* BaseModel.m */; };
 		E83F0DDC1EE6A894004CFFA2 /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E83F0DDB1EE6A894004CFFA2 /* BookModel.m */; };
-		E83F0DE41EE6AE55004CFFA2 /* StatusResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E83F0DE11EE6AE55004CFFA2 /* StatusResult.m */; };
-		E83F0DE51EE6AE55004CFFA2 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = E83F0DE31EE6AE55004CFFA2 /* Status.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,10 +79,6 @@
 		E83F0DD21EE69EAF004CFFA2 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		E83F0DDA1EE6A894004CFFA2 /* BookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
 		E83F0DDB1EE6A894004CFFA2 /* BookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
-		E83F0DE01EE6AE55004CFFA2 /* StatusResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusResult.h; sourceTree = "<group>"; };
-		E83F0DE11EE6AE55004CFFA2 /* StatusResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusResult.m; sourceTree = "<group>"; };
-		E83F0DE21EE6AE55004CFFA2 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
-		E83F0DE31EE6AE55004CFFA2 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,10 +135,6 @@
 				E83F0D841EE68DAF004CFFA2 /* AppDelegate.m */,
 				E83F0D861EE68DAF004CFFA2 /* ViewController.h */,
 				E83F0D871EE68DAF004CFFA2 /* ViewController.m */,
-				E83F0DE01EE6AE55004CFFA2 /* StatusResult.h */,
-				E83F0DE11EE6AE55004CFFA2 /* StatusResult.m */,
-				E83F0DE21EE6AE55004CFFA2 /* Status.h */,
-				E83F0DE31EE6AE55004CFFA2 /* Status.m */,
 				E83F0D891EE68DAF004CFFA2 /* Main.storyboard */,
 				E83F0D8C1EE68DAF004CFFA2 /* Assets.xcassets */,
 				E83F0D8E1EE68DAF004CFFA2 /* LaunchScreen.storyboard */,
@@ -371,14 +361,12 @@
 				E83F0D851EE68DAF004CFFA2 /* AppDelegate.m in Sources */,
 				E83F0DD31EE69EAF004CFFA2 /* BaseModel.m in Sources */,
 				E83F0DB81EE68E85004CFFA2 /* NSObject+Property.m in Sources */,
-				E83F0DE41EE6AE55004CFFA2 /* StatusResult.m in Sources */,
 				E83F0DBB1EE68EB2004CFFA2 /* NSObject+KeyValueObject.m in Sources */,
 				E83F0DC11EE68F02004CFFA2 /* YJJProperty.m in Sources */,
 				E83F0DC41EE68F26004CFFA2 /* YJJPropertyConst.m in Sources */,
 				E83F0DCE1EE6977A004CFFA2 /* BrandType.m in Sources */,
 				E83F0D821EE68DAF004CFFA2 /* main.m in Sources */,
 				E83F0DCB1EE69611004CFFA2 /* UserModel.m in Sources */,
-				E83F0DE51EE6AE55004CFFA2 /* Status.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

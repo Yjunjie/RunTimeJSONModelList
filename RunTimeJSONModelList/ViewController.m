@@ -13,8 +13,7 @@
 #import "BaseModel.h"
 #import "BookModel.h"
 
-#import "StatusResult.h"
-#import "Status.h"
+
 @interface ViewController ()
 @property (nonatomic, strong) NSDictionary *modelDic;
 @end
