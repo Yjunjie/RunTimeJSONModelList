@@ -22,13 +22,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-//    [self aaaaaaa];
+
     NSLog(@"modelDic==%@",self.modelDic);
     // 2.将字典转为UserModel模型
     BaseModel *baseModel = [BaseModel objectWithKeyValues:self.modelDic];
-    
-    
     NSLog(@"baseModel==%@==%@==%@",baseModel,baseModel.users,baseModel.code);
     
     for (UserModel *user in baseModel.users) {
