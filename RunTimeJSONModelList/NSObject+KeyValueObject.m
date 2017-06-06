@@ -49,7 +49,7 @@
             // 看该类是否实现了objectClassInArray方法
         }else if ([self.class respondsToSelector:@selector(objectClassInArray)]){
             id objectClass;
-            //如果是NSString类型,例如@"statuses" : @"Status"
+            //如果是NSString类型,例如@"users" : @"UserModel"
             objectClass = [self.class objectClassInArray][property.name];
             
             // 如果是NSString类型
@@ -135,6 +135,7 @@
     id foundationObj;
     if ([self isKindOfClass:[NSString class]]) {
         foundationObj = [NSJSONSerialization JSONObjectWithData:[(NSString *)self dataUsingEncoding:NSUTF8StringEncoding] options:kNilOptions error:nil];
+        NSLog(@"foundationObj=%@",foundationObj);
     }else if ([self isKindOfClass:[NSData class]]){
         foundationObj = [NSJSONSerialization JSONObjectWithData:(NSData *)self options:kNilOptions error:nil];
     }

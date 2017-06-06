@@ -25,7 +25,7 @@
 - (instancetype)initWithProperty:(objc_property_t)property{
     if (self = [super init]) {
         _name = @(property_getName(property));
-        
+        NSLog(@"_name===%@",_name);
         _type = [YJJPropertyType propertyTypeWithAttributeString:@(property_getAttributes(property))];;
         NSLog(@"_type===%@",_type);
     }

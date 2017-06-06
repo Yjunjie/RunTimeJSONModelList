@@ -22,7 +22,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button.frame = CGRectMake(100, 230, 100, 100);
+    button.backgroundColor = [UIColor grayColor];
+    [button setTitle:@"按钮" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(btActions) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 
+    
+}
+
+-(void)btActions{
     NSLog(@"modelDic==%@",self.modelDic);
     // 2.将字典转为UserModel模型
     BaseModel *baseModel = [BaseModel objectWithKeyValues:self.modelDic];
