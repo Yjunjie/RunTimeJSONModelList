@@ -37,6 +37,7 @@
     for (YJJProperty *property in propertiesArray) {
         YJJPropertyType *type = property.type;
         Class typeClass = type.typeClass;
+        NSLog(@"class=%@",typeClass);
         //获取对应属性的值
         //id value = [keyValues valueForKey:property.name];
         //先看是否实现了key得替换

@@ -43,16 +43,7 @@ static NSMutableDictionary *cachedTypes_;
     
     return self;
 }
-/**
- cachedTypes=====I
- 2017-06-06 17:47:07.151513 RunTimeJSONModelList[453:77781] cachedTypes=====i
- 2017-06-06 17:47:07.151637 RunTimeJSONModelList[453:77781] cachedTypes=====B
- 2017-06-06 17:47:07.151870 RunTimeJSONModelList[453:77781] cachedTypes=====@
- 2017-06-06 17:47:07.152141 RunTimeJSONModelList[453:77781] cachedTypes=====@"BrandType"
- *  得到具体的类型
- *
- *  @param code 得到具体的类型信息
- */
+
 - (void)getTypeCode:(NSString *)code
 {
     NSLog(@"code===%@",code);
